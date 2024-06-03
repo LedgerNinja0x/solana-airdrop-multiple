@@ -2,7 +2,7 @@ import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { SolanaMultiAirdrop } from "../target/types/solana_multi_airdrop";
 import { TOKEN_PROGRAM_ID, createMint, getOrCreateAssociatedTokenAccount, mintTo } from "@solana/spl-token";
-import { PublicKey, Keypair } from "@solana/web3.js";
+import { Keypair } from "@solana/web3.js";
 
 describe("solana-multi-airdrop", () => {
   // Configure the client to use the local cluster.
